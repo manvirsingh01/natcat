@@ -1,18 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🐱 Natcat
 
-## Getting Started
+**Master the Swiss Army Knife of Networking**
 
-First, run the development server:
+Natcat is an interactive educational platform designed to teach Netcat commands and networking concepts in a safe, browser-based environment. It features a fully functional terminal simulator, a quick-reference cheatsheet, and security-focused lessons.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
+
+- **Interactive Terminal Simulator**: A sandboxed shell environment that mimics a Linux terminal, allowing users to practice commands without risking their own network.
+  - **Virtual File System**: Supports standard file operations like `ls`, `cd`, `mkdir`, `touch`, and `cat`.
+  - **Networking Tools**: Simulates `nc` (Netcat), `ping`, `dig`, `whois`, `nmap`, and `curl`.
+  - **Package Management**: Includes a simulated package manager (`pkg`) to install additional tools like `npm`.
+  - **Fun Extras**: Includes `cowsay` and `figlet` for ASCII art.
+- **Netcat Cheatsheet**: Instant access to common flags and command patterns for rapid reference.
+- **Modern UI**: Built with Next.js and Tailwind CSS for a responsive, dark-mode inspired design.
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Utilities**: `clsx`, `tailwind-merge`
+
+## 🚀 Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/manvirsingh01/natcat.git](https://github.com/manvirsingh01/natcat.git)
+   cd natcat
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
